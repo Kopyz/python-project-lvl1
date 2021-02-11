@@ -3,14 +3,16 @@ packages = [
   { include = "brain_games" },
 ]
 name = "hexlet-code"
-version = "0.1.0"
+version = "0.3.0"
 description = ""
 authors = ["Saveload <saveload65@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
+wemake-python-styleguide = "^0.15.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
